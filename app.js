@@ -51,6 +51,4 @@ app.get('/apps', (req, res) => {
         .json(results)
 });
 
-app.listen(8000, () => {
-    console.log('Welcome to the Playstore!')
-});
+module.exports = app;
